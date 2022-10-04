@@ -10,45 +10,94 @@
 </head>
 
 <body>
-    <section>
-        <div>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand" href="#">Edu Hub</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">Deals</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">Success</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">Register</a>
-                            </li>
-                        </ul>
+    <header class="container">
 
-                        <button class="btn btn-outline-info" type="submit">Search</button>
+        <!-- NAVBAR Start -->
 
+        <section>
+            <div>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">Edu Hub</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">Deals</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">Success</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">Register</a>
+                                </li>
+                            </ul>
+
+                            <button class="btn btn-outline-info" type="submit">Search</button>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <!-- NAVBAR End -->
+
+
+        <!-- Carousel start -->
+        <section class="mt-10">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Join Today</h5>
+                            <p>We are here for all your needs</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Let's go</h5>
+                            <p>Start learning from today</p>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </div>
-    </section>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
